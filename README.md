@@ -23,61 +23,47 @@ Welcome to my GitHub profile! I'm a passionate developer focused on building mea
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Pinned Projects
 
-### 1. **[Agent-cli](https://github.com/Jitendarmahara/Agent-cli)** - Terminus
-🤖 A minimal coding agent harness built from scratch to understand how agentic systems work
+### 1. **[Backend-exchange](https://github.com/Jitendarmahara/Backend-exchange)** 🔁
+**High-performance Crypto Exchange Backend System**
 
-**Description:**  
-Terminus is a coding agent built from the ground up without magic or abstractions. It accepts natural language tasks, runs an agent loop powered by Anthropic Claude or Google Gemini, and executes real tools (bash, read_file, write_file, list_dir) on your machine.
-
-**Tech Stack:** TypeScript, Bun, Commander.js, Anthropic SDK, Google GenAI SDK  
-**Key Features:**
-- SSE streaming from LLM to your server
-- Agent loop with tool calling mechanics
-- Context accumulation across turns
-- CLI and web chat interface
-- Multi-provider support (Claude & Gemini)
-
----
-
-### 2. **[Backend-exchange](https://github.com/Jitendarmahara/Backend-exchange)** 
-🔁 High-performance backend system for a crypto-style exchange
-
-**Description:**  
-A robust backend system supporting real-time order matching, WebSocket streaming, and Kafka-based event handling.
+A robust backend system for a crypto-style exchange supporting real-time order matching, WebSocket streaming, and Kafka-based event handling.
 
 **Tech Stack:** Node.js, Express.js, WebSocket, Redis, PostgreSQL/MongoDB  
 **Key Features:**
-- Real-time order matching engine (limit/market orders)
-- In-memory order book for fast matching
-- WebSocket support for live updates
-- Redis architecture for async queuing
-- Buy/sell orders with partial fills support
+- ✅ Real-time order matching engine (limit/market orders)
+- 🧠 In-memory order book for fast matching
+- 📡 WebSocket support for live orderbook and trade updates
+- 📨 Redis architecture for async order queuing
+- 🗃️ Support for buy/sell orders with partial fills
 
 ---
 
-### 3. **[academi-portal-x](https://github.com/Jitendarmahara/academi-portal-x)**
-🎓 Educational portal built with Lovable
+### 2. **[Zappier](https://github.com/Jitendarmahara/Zappier)** ⚡
+**Automation Platform with Webhook Backend (Like Zapier)**
 
-**Tech Stack:** React, TypeScript, Vite, shadcn-ui, Tailwind CSS  
-**Description:** A modern educational platform with responsive design and component-driven architecture.
+Building a webhook-based automation platform similar to Zapier, with focus on backend architecture and event-driven processing.
 
----
-
-### 4. **[cms_school](https://github.com/Jitendarmahara/cms_school)**
-📚 School Content Management System
-
-**Tech Stack:** Turborepo, Next.js, TypeScript, Bun  
-**Description:** A comprehensive CMS solution for school management with monorepo architecture including web frontend and backend services.
+**Tech Stack:** Node.js, TypeScript, Kafka, Next.js  
+**Current Focus:**
+- 🔨 Frontend architecture and UI design
+- 🌉 Webhook backend design and implementation
+- 📨 Kafka-based event processing for reliable automation
 
 ---
 
-### 5. **[agent_tui](https://github.com/Jitendarmahara/agent_tui)**
-⌨️ Terminal User Interface for Agent
+### 3. **[perpetual](https://github.com/Jitendarmahara/perpetual)** 📊
+**Perpetual Futures Trading Platform**
 
-**Tech Stack:** TypeScript, Bun  
-**Description:** A terminal-based user interface for interacting with agent systems.
+A full-stack monorepo for a perpetual futures trading system with price polling and backend services.
+
+**Tech Stack:** Turborepo, TypeScript, Bun, Node.js  
+**Architecture:**
+- 🎯 Backend API service
+- 📈 Price poller for real-time market data
+- 🏗️ Monorepo structure with shared utilities
+- ⚡ Built with Bun for fast runtime
 
 ---
 
@@ -89,8 +75,8 @@ A robust backend system supporting real-time order matching, WebSocket streaming
 | **Frontend** | React, Next.js, Vite, Tailwind CSS, shadcn-ui |
 | **Backend** | Node.js, Express.js, Bun |
 | **Real-time** | WebSocket, Server-Sent Events (SSE) |
+| **Message Queue** | Kafka, Redis |
 | **Databases** | PostgreSQL, MongoDB |
-| **Queuing** | Redis, Kafka |
 | **Monorepo** | Turborepo |
 | **DevOps** | Docker, CI/CD, Jenkins |
 | **AI/LLM** | Anthropic Claude, Google Gemini |
@@ -100,19 +86,21 @@ A robust backend system supporting real-time order matching, WebSocket streaming
 ## 💼 Recent Work Areas
 
 - 🤖 **AI Agents** - Building autonomous coding agents with LLM integration
-- 💱 **FinTech** - Exchange systems and trading platforms
+- 💱 **FinTech** - Exchange systems, trading platforms, and perpetual futures
+- 🔧 **Event-Driven Architecture** - Kafka, Redis, WebSocket systems
+- ⚡ **Automation Platforms** - Webhook-based automation and integrations
 - 🏫 **EdTech** - Educational management systems
-- 🔧 **DevOps** - CI/CD pipelines and deployment automation
-- 📡 **Real-time Systems** - WebSocket and event-driven architectures
+- 🚀 **DevOps** - CI/CD pipelines and deployment automation
 
 ---
 
 ## 🎯 Current Focus
 
-- Deep diving into **agentic AI systems** and how LLMs interact with tools
-- Building **scalable backend systems** with event-driven architecture
-- Exploring **full-stack TypeScript** applications
-- Contributing to **open-source projects**
+- Deep diving into **FinTech systems** (exchanges, perpetual trading)
+- Building **scalable event-driven backends** with Kafka
+- Exploring **real-time systems** with WebSocket and SSE
+- Contributing to **full-stack TypeScript** applications
+- Open source contribution
 
 ---
 
